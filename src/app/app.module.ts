@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
-import { TourNgBootstrapModule } from 'ngx-tour-ng-bootstrap';
+import { TourMatMenuModule } from 'ngx-tour-md-menu';
 import { RouterModule } from '@angular/router';
 
 
@@ -14,8 +15,9 @@ const routing = RouterModule.forRoot([]);
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     routing,
-    TourNgBootstrapModule.forRoot(),
+    TourMatMenuModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]

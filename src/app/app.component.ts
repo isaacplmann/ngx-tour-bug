@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { TourService } from 'ngx-tour-ng-bootstrap';
+import { TourService } from 'ngx-tour-md-menu';
 
 @Component({
   selector: 'app-root',
